@@ -1,13 +1,7 @@
 <template>
   <div class="box">
     <h1 class="text-center">What Do You Want To Do?</h1>
-    <input        
-        class="input fw-bold"
-        id="inputTodo"
-        placeholder="Write Down"
-        autocomplete="off"
-        type="text"
-        v-model="newTodo"
+    <input class="input fw-bold" id="inputTodo" placeholder="Write Down" autocomplete="off" type="text" v-model="newTodo"
         @keyup.enter="addTodo" />
 
     <button class="btn btn-dark" @click="addTodo">+</button>
@@ -82,7 +76,7 @@ export default {
   }
 
   .btn {
-    margin-left: 73.5%;
+    margin-left: 78.5%;
     margin-top: -19.5%;
     margin-bottom: 1%;
     background: transparent;
